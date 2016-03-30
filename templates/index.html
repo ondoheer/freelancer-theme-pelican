@@ -23,7 +23,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
             {% for link, title  in NAVLINKS %}
-            	{%if link == '' %}
+            	{%if title == '' %}
             	<li class="hidden">
                     <a href="{{link}}"></a>
                 </li>
